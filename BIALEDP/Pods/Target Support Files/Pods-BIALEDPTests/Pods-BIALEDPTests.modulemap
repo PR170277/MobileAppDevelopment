@@ -1,0 +1,6 @@
+framework module Pods_BIALEDPTests {
+  umbrella header "Pods-BIALEDPTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

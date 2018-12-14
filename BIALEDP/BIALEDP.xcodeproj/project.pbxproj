@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A22A76A21B13977000D19F9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1A22A76921B13977000D19F9 /* GoogleService-Info.plist */; };
+		1A365DBF21B1365800A6AE39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A365DBE21B1365800A6AE39 /* AppDelegate.swift */; };
+		1A365DC121B1365800A6AE39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A365DC021B1365800A6AE39 /* ViewController.swift */; };
+		1A365DC421B1365800A6AE39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A365DC221B1365800A6AE39 /* Main.storyboard */; };
+		1A365DC621B1365900A6AE39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A365DC521B1365900A6AE39 /* Assets.xcassets */; };
+		1A365DC921B1365900A6AE39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A365DC721B1365900A6AE39 /* LaunchScreen.storyboard */; };
+		1A365DD421B1365900A6AE39 /* BIALEDPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A365DD321B1365900A6AE39 /* BIALEDPTests.swift */; };
+		1A365DDF21B1365900A6AE39 /* BIALEDPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A365DDE21B1365900A6AE39 /* BIALEDPUITests.swift */; };
+		1AC5A86421B7D2FA00A1EF8A /* CloudKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC5A86321B7D2FA00A1EF8A /* CloudKit.framework */; };
+		6333760096CD9AA08064F5B9 /* Pods_BIALEDPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32EF8B19AA84369ED79B55F9 /* Pods_BIALEDPTests.framework */; };
+		870BE7D54CD7BA606F38DC5A /* Pods_BIALEDP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C0E53ED9C3FDF9F619CEFE /* Pods_BIALEDP.framework */; };
+		CE218AA62B2811B2F6D41745 /* Pods_BIALEDPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6A06095F7A259CD067FA498 /* Pods_BIALEDPUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1A365DD021B1365900A6AE39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A365DB321B1365800A6AE39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A365DBA21B1365800A6AE39;
+			remoteInfo = BIALEDP;
+		};
+		1A365DDB21B1365900A6AE39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1A365DB321B1365800A6AE39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A365DBA21B1365800A6AE39;
+			remoteInfo = BIALEDP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A22A76921B13977000D19F9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		1A365DBB21B1365800A6AE39 /* BIALEDP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BIALEDP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A365DBE21B1365800A6AE39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1A365DC021B1365800A6AE39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1A365DC321B1365800A6AE39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1A365DC521B1365900A6AE39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1A365DC821B1365900A6AE39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1A365DCA21B1365900A6AE39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A365DCF21B1365900A6AE39 /* BIALEDPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BIALEDPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A365DD321B1365900A6AE39 /* BIALEDPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BIALEDPTests.swift; sourceTree = "<group>"; };
+		1A365DD521B1365900A6AE39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1A365DDA21B1365900A6AE39 /* BIALEDPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BIALEDPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1A365DDE21B1365900A6AE39 /* BIALEDPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BIALEDPUITests.swift; sourceTree = "<group>"; };
+		1A365DE021B1365900A6AE39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC5A86221B7D2F400A1EF8A /* BIALEDP.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BIALEDP.entitlements; sourceTree = "<group>"; };
+		1AC5A86321B7D2FA00A1EF8A /* CloudKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CloudKit.framework; path = System/Library/Frameworks/CloudKit.framework; sourceTree = SDKROOT; };
+		32EF8B19AA84369ED79B55F9 /* Pods_BIALEDPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BIALEDPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5A7CA3EF2629218457A72FC7 /* Pods-BIALEDP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BIALEDP.release.xcconfig"; path = "Pods/Target Support Files/Pods-BIALEDP/Pods-BIALEDP.release.xcconfig"; sourceTree = "<group>"; };
+		83CA6B262F7841CF83F214A6 /* Pods-BIALEDPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BIALEDPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BIALEDPTests/Pods-BIALEDPTests.release.xcconfig"; sourceTree = "<group>"; };
+		8E4ED87747525B881F67108B /* Pods-BIALEDPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BIALEDPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BIALEDPUITests/Pods-BIALEDPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		94017ECC9EC29AA22EE8FFFB /* Pods-BIALEDPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BIALEDPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BIALEDPUITests/Pods-BIALEDPUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A9C0E53ED9C3FDF9F619CEFE /* Pods_BIALEDP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BIALEDP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2341F8A30C53144C69F7B6B /* Pods-BIALEDP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BIALEDP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BIALEDP/Pods-BIALEDP.debug.xcconfig"; sourceTree = "<group>"; };
+		E6A06095F7A259CD067FA498 /* Pods_BIALEDPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BIALEDPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4BD387C59FB673395B60524 /* Pods-BIALEDPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BIALEDPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BIALEDPTests/Pods-BIALEDPTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1A365DB821B1365800A6AE39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				870BE7D54CD7BA606F38DC5A /* Pods_BIALEDP.framework in Frameworks */,
+				1AC5A86421B7D2FA00A1EF8A /* CloudKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A365DCC21B1365900A6AE39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6333760096CD9AA08064F5B9 /* Pods_BIALEDPTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A365DD721B1365900A6AE39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE218AA62B2811B2F6D41745 /* Pods_BIALEDPUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		02BCB6050C2596121270083B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D2341F8A30C53144C69F7B6B /* Pods-BIALEDP.debug.xcconfig */,
+				5A7CA3EF2629218457A72FC7 /* Pods-BIALEDP.release.xcconfig */,
+				F4BD387C59FB673395B60524 /* Pods-BIALEDPTests.debug.xcconfig */,
+				83CA6B262F7841CF83F214A6 /* Pods-BIALEDPTests.release.xcconfig */,
+				8E4ED87747525B881F67108B /* Pods-BIALEDPUITests.debug.xcconfig */,
+				94017ECC9EC29AA22EE8FFFB /* Pods-BIALEDPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1A365DB221B1365800A6AE39 = {
+			isa = PBXGroup;
+			children = (
+				1A365DBD21B1365800A6AE39 /* BIALEDP */,
+				1A365DD221B1365900A6AE39 /* BIALEDPTests */,
+				1A365DDD21B1365900A6AE39 /* BIALEDPUITests */,
+				1A365DBC21B1365800A6AE39 /* Products */,
+				02BCB6050C2596121270083B /* Pods */,
+				1EB03E0E2AACB0F888A0ADE0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1A365DBC21B1365800A6AE39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1A365DBB21B1365800A6AE39 /* BIALEDP.app */,
+				1A365DCF21B1365900A6AE39 /* BIALEDPTests.xctest */,
+				1A365DDA21B1365900A6AE39 /* BIALEDPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1A365DBD21B1365800A6AE39 /* BIALEDP */ = {
+			isa = PBXGroup;
+			children = (
+				1AC5A86221B7D2F400A1EF8A /* BIALEDP.entitlements */,
+				1A365DBE21B1365800A6AE39 /* AppDelegate.swift */,
+				1A365DC021B1365800A6AE39 /* ViewController.swift */,
+				1A365DC221B1365800A6AE39 /* Main.storyboard */,
+				1A365DC521B1365900A6AE39 /* Assets.xcassets */,
+				1A365DC721B1365900A6AE39 /* LaunchScreen.storyboard */,
+				1A365DCA21B1365900A6AE39 /* Info.plist */,
+				1A22A76921B13977000D19F9 /* GoogleService-Info.plist */,
+			);
+			path = BIALEDP;
+			sourceTree = "<group>";
+		};
+		1A365DD221B1365900A6AE39 /* BIALEDPTests */ = {
+			isa = PBXGroup;
+			children = (
+				1A365DD321B1365900A6AE39 /* BIALEDPTests.swift */,
+				1A365DD521B1365900A6AE39 /* Info.plist */,
+			);
+			path = BIALEDPTests;
+			sourceTree = "<group>";
+		};
+		1A365DDD21B1365900A6AE39 /* BIALEDPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1A365DDE21B1365900A6AE39 /* BIALEDPUITests.swift */,
+				1A365DE021B1365900A6AE39 /* Info.plist */,
+			);
+			path = BIALEDPUITests;
+			sourceTree = "<group>";
+		};
+		1EB03E0E2AACB0F888A0ADE0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1AC5A86321B7D2FA00A1EF8A /* CloudKit.framework */,
+				A9C0E53ED9C3FDF9F619CEFE /* Pods_BIALEDP.framework */,
+				32EF8B19AA84369ED79B55F9 /* Pods_BIALEDPTests.framework */,
+				E6A06095F7A259CD067FA498 /* Pods_BIALEDPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1A365DBA21B1365800A6AE39 /* BIALEDP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A365DE321B1365900A6AE39 /* Build configuration list for PBXNativeTarget "BIALEDP" */;
+			buildPhases = (
+				FDE202754FCD7ECB55E74078 /* [CP] Check Pods Manifest.lock */,
+				1A365DB721B1365800A6AE39 /* Sources */,
+				1A365DB821B1365800A6AE39 /* Frameworks */,
+				1A365DB921B1365800A6AE39 /* Resources */,
+				97595B831F6FC1EA6B2B0632 /* [CP] Embed Pods Frameworks */,
+				1AC5A86121B65BFC00A1EF8A /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BIALEDP;
+			productName = BIALEDP;
+			productReference = 1A365DBB21B1365800A6AE39 /* BIALEDP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1A365DCE21B1365900A6AE39 /* BIALEDPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A365DE621B1365900A6AE39 /* Build configuration list for PBXNativeTarget "BIALEDPTests" */;
+			buildPhases = (
+				1BF1AE3FD5BDDEA99E3C5D51 /* [CP] Check Pods Manifest.lock */,
+				1A365DCB21B1365900A6AE39 /* Sources */,
+				1A365DCC21B1365900A6AE39 /* Frameworks */,
+				1A365DCD21B1365900A6AE39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A365DD121B1365900A6AE39 /* PBXTargetDependency */,
+			);
+			name = BIALEDPTests;
+			productName = BIALEDPTests;
+			productReference = 1A365DCF21B1365900A6AE39 /* BIALEDPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1A365DD921B1365900A6AE39 /* BIALEDPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1A365DE921B1365900A6AE39 /* Build configuration list for PBXNativeTarget "BIALEDPUITests" */;
+			buildPhases = (
+				234BFA94BF8EC26B3920E1DB /* [CP] Check Pods Manifest.lock */,
+				1A365DD621B1365900A6AE39 /* Sources */,
+				1A365DD721B1365900A6AE39 /* Frameworks */,
+				1A365DD821B1365900A6AE39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1A365DDC21B1365900A6AE39 /* PBXTargetDependency */,
+			);
+			name = BIALEDPUITests;
+			productName = BIALEDPUITests;
+			productReference = 1A365DDA21B1365900A6AE39 /* BIALEDPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1A365DB321B1365800A6AE39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Prem Verma (INDIA - BAS)";
+				TargetAttributes = {
+					1A365DBA21B1365800A6AE39 = {
+						CreatedOnToolsVersion = 10.1;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+							com.apple.iCloud = {
+								enabled = 1;
+							};
+						};
+					};
+					1A365DCE21B1365900A6AE39 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1A365DBA21B1365800A6AE39;
+					};
+					1A365DD921B1365900A6AE39 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 1A365DBA21B1365800A6AE39;
+					};
+				};
+			};
+			buildConfigurationList = 1A365DB621B1365800A6AE39 /* Build configuration list for PBXProject "BIALEDP" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1A365DB221B1365800A6AE39;
+			productRefGroup = 1A365DBC21B1365800A6AE39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A365DBA21B1365800A6AE39 /* BIALEDP */,
+				1A365DCE21B1365900A6AE39 /* BIALEDPTests */,
+				1A365DD921B1365900A6AE39 /* BIALEDPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1A365DB921B1365800A6AE39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A365DC921B1365900A6AE39 /* LaunchScreen.storyboard in Resources */,
+				1A22A76A21B13977000D19F9 /* GoogleService-Info.plist in Resources */,
+				1A365DC621B1365900A6AE39 /* Assets.xcassets in Resources */,
+				1A365DC421B1365800A6AE39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A365DCD21B1365900A6AE39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A365DD821B1365900A6AE39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1AC5A86121B65BFC00A1EF8A /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "
+";
+		};
+		1BF1AE3FD5BDDEA99E3C5D51 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BIALEDPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		234BFA94BF8EC26B3920E1DB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BIALEDPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97595B831F6FC1EA6B2B0632 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BIALEDP/Pods-BIALEDP-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BIALEDP/Pods-BIALEDP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FDE202754FCD7ECB55E74078 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BIALEDP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A365DB721B1365800A6AE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A365DC121B1365800A6AE39 /* ViewController.swift in Sources */,
+				1A365DBF21B1365800A6AE39 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A365DCB21B1365900A6AE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A365DD421B1365900A6AE39 /* BIALEDPTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1A365DD621B1365900A6AE39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A365DDF21B1365900A6AE39 /* BIALEDPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1A365DD121B1365900A6AE39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A365DBA21B1365800A6AE39 /* BIALEDP */;
+			targetProxy = 1A365DD021B1365900A6AE39 /* PBXContainerItemProxy */;
+		};
+		1A365DDC21B1365900A6AE39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1A365DBA21B1365800A6AE39 /* BIALEDP */;
+			targetProxy = 1A365DDB21B1365900A6AE39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1A365DC221B1365800A6AE39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A365DC321B1365800A6AE39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1A365DC721B1365900A6AE39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1A365DC821B1365900A6AE39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1A365DE121B1365900A6AE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1A365DE221B1365900A6AE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1A365DE421B1365900A6AE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2341F8A30C53144C69F7B6B /* Pods-BIALEDP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BIALEDP/BIALEDP.entitlements;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = MNY2MX775B;
+				INFOPLIST_FILE = BIALEDP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wipro.cesmobility;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = CESMobilityDevelopmentProvisioningProfile;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1A365DE521B1365900A6AE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5A7CA3EF2629218457A72FC7 /* Pods-BIALEDP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = BIALEDP/BIALEDP.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = MNY2MX775B;
+				INFOPLIST_FILE = BIALEDP/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wipro.cesmobility;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = CESMobilityDevelopmentProvisioningProfile;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1A365DE721B1365900A6AE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4BD387C59FB673395B60524 /* Pods-BIALEDPTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BIALEDPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wipro.BIALEDPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BIALEDP.app/BIALEDP";
+			};
+			name = Debug;
+		};
+		1A365DE821B1365900A6AE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 83CA6B262F7841CF83F214A6 /* Pods-BIALEDPTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BIALEDPTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wipro.BIALEDPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BIALEDP.app/BIALEDP";
+			};
+			name = Release;
+		};
+		1A365DEA21B1365900A6AE39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E4ED87747525B881F67108B /* Pods-BIALEDPUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BIALEDPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wipro.BIALEDPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BIALEDP;
+			};
+			name = Debug;
+		};
+		1A365DEB21B1365900A6AE39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94017ECC9EC29AA22EE8FFFB /* Pods-BIALEDPUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = BIALEDPUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.wipro.BIALEDPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = BIALEDP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1A365DB621B1365800A6AE39 /* Build configuration list for PBXProject "BIALEDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A365DE121B1365900A6AE39 /* Debug */,
+				1A365DE221B1365900A6AE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A365DE321B1365900A6AE39 /* Build configuration list for PBXNativeTarget "BIALEDP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A365DE421B1365900A6AE39 /* Debug */,
+				1A365DE521B1365900A6AE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A365DE621B1365900A6AE39 /* Build configuration list for PBXNativeTarget "BIALEDPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A365DE721B1365900A6AE39 /* Debug */,
+				1A365DE821B1365900A6AE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1A365DE921B1365900A6AE39 /* Build configuration list for PBXNativeTarget "BIALEDPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A365DEA21B1365900A6AE39 /* Debug */,
+				1A365DEB21B1365900A6AE39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1A365DB321B1365800A6AE39 /* Project object */;
+}

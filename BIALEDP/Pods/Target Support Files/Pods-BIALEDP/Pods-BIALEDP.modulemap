@@ -1,0 +1,6 @@
+framework module Pods_BIALEDP {
+  umbrella header "Pods-BIALEDP-umbrella.h"
+
+  export *
+  module * { export * }
+}
